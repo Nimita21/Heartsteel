@@ -1,0 +1,88 @@
+nav{
+	text-decoration: none;
+	text-align: center;
+	background-color:black;
+	color:white;
+	font-size: 1.5em;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.bandpic{
+	float: none;
+	max-width: 1100px;
+	max-height:1100px;
+}
+.albumname{
+  color:black;
+  text-align: center;
+  float: right;
+}
+.photos{
+  width: 300px;
+  height: 300px;
+}
+.memberphoto{
+	width: 300px;
+	height: 300px;
+}
+.ezreal{
+	color: green;
+}
+.kayn{
+	color: blueviolet;
+}
+.sett{
+	color: pink;
+}
+.yone{
+	color: darkred;
+}
+.aphelios{
+	color: teal;
+}
+.ksante{
+	color: yellow;
+}
+ul.social{
+    display: block;
+    list-style: none;
+    color: white;
+
+}
+ul.social li{
+  display: inline;
+  font-size: 1.5em;
+}
+ul.social li a{
+  color: #666;
+}
+
+
+ul.social li.instagram a:hover{
+  color: rgb(81,127,237);
+}
+ul.social li.youtube a:hover{
+  color: rgb(187,0,0);
+}
+
+ul.social li.spotify a:hover{
+  color: green;
+
+}
+footer{
+  color: black;
+}

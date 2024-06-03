@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Heartsteel</title>
+  <meta name="description" content="The official website for Riot's boy band Heartsteel">
+  <meta name="author" content="Nimita Priyadarshi">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="skeleton.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <!-- Magnific Popup core CSS file -->
+ <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+
+<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ <script type="text/javascript">
+   $(document).ready(function() {
+  $('.image-link').magnificPopup({type:'image'});
+});
+   // Initialize popup as usual
+$('.image-link').magnificPopup({
+  type: 'image',
+  mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+
+  zoom: {
+    enabled: true, // By default it's false, so don't forget to enable it
+
+    duration: 300, // duration of the effect, in milliseconds
+    easing: 'ease-in-out', // CSS transition easing function
+
+    // The "opener" function should return the element from which popup will be zoomed in
+    // and to which popup will be scaled down
+    // By defailt it looks for an image tag:
+    opener: function(openerElement) {
+      // openerElement is the element on which popup was initialized, in this case its <a> tag
+      // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+      return openerElement.is('img') ? openerElement : openerElement.find('img');
+    }
+  }
+
+});
+
+ </script>
+ <script src="magnific-popup/jquery.magnific-popup.js"></script>
+
+  <link rel="icon" type="image/png" href="images/favicon.jpg">
+  <script src="https://kit.fontawesome.com/a392519dba.js" crossorigin="anonymous"></script>
+</head>
+<main>
+  <nav>
+    <ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="music.html">MUSIC</a></li>
+    <li><a href="videos.html">VIDEOS</a></li>
+    <li><a href="photos.html">PHOTOS</a></li>
+    <li><a href="bio.html">BIO</a></li>
+  </ul>
+  </nav>
+   <section id="gallery" class="container">
+      <article class="row" >
+        <div class= "six columns">
+          <img class="memberphoto" src="images/ezreal.jpeg" alt="">
+        </div>
+        <div class="four columns">
+          <h2 class= "ezreal">Ezreal</h2>
+          <p>First rose to stardom through a manufactured bubblegum-pop hit. As part of HEARTSTEEL, he’s found new freedom in controlling what he creates. Collaborating with BAEKHYUN of EXO, this charming vocalist takes inspiration from his fans around the world.</p>
+        </div>
+      </article>
+      <div class= "six columns">
+          <img class="memberphoto" src="images/kayn.jpg" alt="">
+        </div>
+        <div class="four columns">
+          <h2 class= "kayn">Kayn</h2>
+          <p>A wildcard, channeling his rebellious streak through Rhaast, his onstage alter-ego. Kicked out of his former band, the multi-genre rapper and instrumentalist leans into everything new and experimental. Collaborating with Cal Scruby, Kayn pushes the envelope wherever he is.</p>
+        </div>
+        <div class= "six columns">
+          <img class="memberphoto" src="images/sett.jpeg" alt="">
+        </div>
+        <div class="four columns">
+          <h2 class= "sett">Sett</h2>
+          <p>The founder and co-leader of HEARTSTEEL, who started the band after being dropped from his first label. Inspired by the bold, aggressive styles of hip-hop, Sett designed the group's outfits for the PARANOIA music video and collaborated with ØZI on his rap verse.</p>
+        </div>
+      <div class= "six columns">
+          <img class="memberphoto" src="images/yone.webp" alt="">
+        </div>
+        <div class="four columns">
+          <h2 class= "yone">Yone</h2>
+          <p>Once a producer on international pop hits,Yone grew disillusioned with the music industry’s idea of success. Now revitalized as part of HEARTSTEEL, Yone brings an analytical focus and sharp production skills to the band. His passion for electronic music and meticulous attention to detail shapes their sound.</p>
+        </div>
+        <div class= "six columns">
+          <img class="memberphoto" src="images/aphelios.jpeg" alt="">
+        </div>
+        <div class="four columns">
+          <h2 class= "aphelios">Aphelios</h2>
+          <p>As HEARTSTEEL’s primary instrumentalist and lyricist, Aphelios brings a quiet genius to the band’s songwriting and composition. Though he rarely speaks, his pursuit of musical perfection guides the group. With his array of instruments (and a little help from his twin sister Alune), Aphelios aims for new creative heights.</p>
+        </div>
+        <div class= "six columns">
+          <img class="memberphoto" src="images/ksante.jpg" alt="">
+        </div>
+        <div class="four columns">
+          <h2 class= "ksante">K'sante</h2>
+          <p>As HEARTSTEEL’s co-leader, K'sante uses his talents as a singer and creative director to shape the band’s vision. In collaboration with Tobi Lou, K’Sante’s emotionally-attuned lyricism draws inspiration from R&B and hip-hop.</p>
+        </div>
+      </section>
+
+        <footer class="container">
+    <section id="social">
+      <article class="row">
+        <div class="twelve columns">
+          <ul class="social">
+            <li class="instagram"><a href="https://www.instagram.com/leagueoflegends?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="youtube"><a href="https://www.youtube.com/@leagueoflegends"><i class="fa-brands fa-youtube"></i></a></li>
+            <li class="spotify"><a href="https://open.spotify.com/artist/4lY2DXvRv9RPeFcUtn6PUh"><i class="fa-brands fa-spotify"></i></a></li>
+          </ul>
+        </div>
+      </article>
+    </section>
+    <section id="copyright">
+      <article class="row">
+        <div class="twelve columns">
+          <p>2024 Heartsteel All Rights Reserved.</p>
+        </div>
+      </article>
+    
+  </footer>
+</section>
+</main>
+</html>  
+      
